@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(../img/Bg.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+     justify-content: center;  
+    align-items: center;      
+    height: 100vh;            
+    background-position: center;
+}
+.log-in-box{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    gap: 20px;
+    justify-content: center;
+}
+.log-in-heading{
+    font-family:  "Roboto", sans-serif;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+input[type=email]{
+    width: 70%;
+    height: 35px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    background-image: url(../img/icons8-account-48.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 10px 10px;
+
+
+}
+input[type=password]{
+    width: 70%;
+    height: 35px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    background-image: url(../img/icons8-password-48.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 10px 10px;
+
+
+}
+input::placeholder{
+    color: aliceblue;
+    padding-left: 40px;
+    opacity: 0.5;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+    padding-left: 40px;
+}
+
+.log-in-btn{
+    text-decoration:none ;
+  
+   font-family:  "Roboto", sans-serif;
+   color: aliceblue;
+   font-weight: 600;
+
+}
+.btn{
+    width: 70%;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+p{
+    color: aliceblue;
+    font-family:  "Roboto", sans-serif;
+
+}
+.facebook{
+    padding: 9px 17px;
+    background: rgba(255, 255, 255, 0.2);
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    border-radius: 2px;
+}
+.facebook{
+    padding: 9px 17px;
+    background: rgba(255, 255, 255, 0.2);
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    border-radius: 2px;
+}
+.Google{
+    
+        padding: 9px 10px;
+        background: rgba(255, 255, 255, 0.2);
+        color: aliceblue;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        border-radius: 2px;
+        margin-left: 12px;
+    
+    
+}
+
+.icon{
+    width: 20px;
+   
+    position: relative;
+    right: 6px;
+    top: 3px;
+}
+.icon-2{
+    width: 20px;
+    
+    position: relative;
+    right: 6px;
+    top: 3px;
+}
